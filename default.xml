@@ -17,6 +17,12 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote name="gh"
+	        fetch="https://github.com/slayher" />
+	        
+	<remote name="pm"
+	fetch="https://github.com/pio-masaki" />
 
   <default revision="refs/heads/cm-12.0"
            remote="github"
@@ -570,9 +576,9 @@
   <project name="android_device_moto_shamu" path="device/moto/shamu" remote="il" revision="lollipop" />
   <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="il" revision="lollipop" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
-  <project name="Slayher/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="gh" revision="cm-12.0" />
-  <project name="Slayher/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="gh" revision="cm-12.0" />
-  <project name="pio-masaki/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.0" />
-  <project name="pio-masaki/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="gh" revision="infamous-lp" />
+  <project name="android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="gh" revision="cm-12.0" />
+  <project name="android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="gh" revision="cm-12.0" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="pm" revision="cm-12.0" />
+  <project name="android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="pm" revision="infamous-lp" />
 
 </manifest>
