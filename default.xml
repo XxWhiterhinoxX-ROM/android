@@ -584,4 +584,5 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
+
 </manifest>
