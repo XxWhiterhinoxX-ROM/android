@@ -298,7 +298,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <!-- <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" /> -->
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -581,7 +581,6 @@
   <project name="android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="cm" revision="cm-12.0" />
   <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-12.0" />
   <project name="android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="il" revision="lollipop" />
-  <project name="android_external_sepolicy" path="external/sepolicy" remote="il" revision="lollipop" />
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-12.0" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
