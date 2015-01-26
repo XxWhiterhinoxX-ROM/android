@@ -11,8 +11,11 @@
 
   <remote  name="il"
            fetch="https://github.com/INFAMOUS-LOLLIPOP/" />
+  
+  <remote  name="pm"
+           fetch="https://github.com/pio-masaki/" />
 
-<remote  name="cm"
+  <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
   <remote  name="private"
@@ -577,10 +580,10 @@
   <project name="android_device_moto_shamu" path="device/moto/shamu" remote="il" revision="lollipop" />
   <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="il" revision="lollipop" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
-  <project name="android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="cm" revision="cm-12.0" />
-  <project name="android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="cm" revision="cm-12.0" />
+  <project name="android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="pm" revision="infamous-lp" />
+  <project name="android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="pm" revision="cm-12.0" />
+  <project name="android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="pm" revision="cm-12.0" />
   <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-12.0" />
-  <project name="android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="il" revision="lollipop" />
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-12.0" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
