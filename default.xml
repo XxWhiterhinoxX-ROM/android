@@ -570,18 +570,7 @@
   <project path="vendor/infamous" name="android_vendor_infamous" remote="il" revision="lollipop" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="il" revision="lollipop" />
   <project path="frameworks/base" name="android_frameworks_base" remote="il" revision="lollipop" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="il" revision="lollipop" />
   <project name="android_device_moto_shamu" path="device/moto/shamu" remote="il" revision="lollipop" />
-  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="il" revision="lollipop" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
-  <project name="android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="cm" revision="cm-12.0" />
-  <project name="android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="cm" revision="cm-12.0" />
-  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-12.0" />
   <project name="android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="il" revision="lollipop" />
-  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-12.0" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" remote="cm" revision="cm-12.0-caf-8084" />
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-12.0" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 </manifest>
