@@ -575,6 +575,4 @@
   <project path="vendor/infamous" name="android_vendor_infamous" remote="il" revision="lollipop" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="il" revision="lollipop" />
   <project path="frameworks/base" name="android_frameworks_base" remote="il" revision="lollipop" />
-  <project name="android_device_moto_shamu" path="device/moto/shamu" remote="il" revision="lollipop" />
-  <project name="android_device_samsung_trltetmo" path="device/samsun
 </manifest>
