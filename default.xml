@@ -8,11 +8,14 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+  
+  <remote  name="gh"
+           fetch="https://github.com/" />
 
   <remote  name="il"
            fetch="https://github.com/INFAMOUS-LOLLIPOP/" />
 
-<remote  name="cm"
+  <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
   <remote  name="private"
