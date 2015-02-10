@@ -18,6 +18,9 @@
   <remote  name="lp"
 	   fetch="https://github.com/INFAMOUS-LP" />
 
+  <remote  name="ls"
+           fetch="https://github.com/LiquidSmooth" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
