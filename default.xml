@@ -15,6 +15,9 @@
   
   <remote  name="wr"
            fetch="https://github.com/XxWhiterhinoxX-ROM/" />
+  
+  <remote  name="lsd"
+           fetch="https://github.com/LiquidSmooth-Devices/" />
 
   <remote  name="il"
            fetch="https://github.com/INFAMOUS-LOLLIPOP/" />
